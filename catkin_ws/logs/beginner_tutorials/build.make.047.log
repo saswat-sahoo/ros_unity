@@ -1,0 +1,23 @@
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_eus
+[  9%] Built target read_video_cpp
+[  9%] Built target _beginner_tutorials_generate_messages_check_deps_AddTwoInts
+[ 19%] Built target beginner_tutorials_generate_messages_lisp
+[ 23%] Built target beginner_tutorials_generate_messages_eus
+[ 28%] Built target beginner_tutorials_generate_messages_nodejs
+[ 33%] Built target beginner_tutorials_generate_messages_cpp
+[ 42%] Built target beginner_tutorials_generate_messages_py
+[ 42%] Built target beginner_tutorials_generate_messages
+[ 42%] Built target beginner_tutorials_gencpp
+[ 52%] Built target produce
+[ 61%] Built target unity
+[ 71%] Built target square
+[ 80%] Built target output
+[35m[1mScanning dependencies of target add_two_ints_server[0m
+[ 85%] [32mBuilding CXX object CMakeFiles/add_two_ints_server.dir/src/server.cpp.o[0m
+[ 95%] Built target add_two_ints_client
+[100%] [32m[1mLinking CXX executable /home/saswat/catkin_ws/devel/.private/beginner_tutorials/lib/beginner_tutorials/add_two_ints_server[0m
+[100%] Built target add_two_ints_server

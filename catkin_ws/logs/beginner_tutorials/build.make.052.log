@@ -1,0 +1,74 @@
+[35m[1mScanning dependencies of target _beginner_tutorials_generate_messages_check_deps_CombinedInfo[0m
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target _beginner_tutorials_generate_messages_check_deps_CombinedInfo
+[  0%] Built target _beginner_tutorials_generate_messages_check_deps_AddTwoInts
+[  6%] Built target read_video_cpp
+[ 10%] [34m[1mGenerating Lisp code from beginner_tutorials/CombinedInfo.msg[0m
+[ 13%] [34m[1mGenerating Lisp code from beginner_tutorials/AddTwoInts.srv[0m
+[ 17%] [34m[1mGenerating C++ code from beginner_tutorials/CombinedInfo.msg[0m
+[ 20%] [34m[1mGenerating C++ code from beginner_tutorials/AddTwoInts.srv[0m
+[ 24%] [34m[1mGenerating Javascript code from beginner_tutorials/CombinedInfo.msg[0m
+[ 27%] [34m[1mGenerating Javascript code from beginner_tutorials/AddTwoInts.srv[0m
+[ 31%] [34m[1mGenerating EusLisp code from beginner_tutorials/CombinedInfo.msg[0m
+[ 34%] [34m[1mGenerating Python from MSG beginner_tutorials/CombinedInfo[0m
+[ 37%] [34m[1mGenerating EusLisp code from beginner_tutorials/AddTwoInts.srv[0m
+[ 37%] Built target beginner_tutorials_generate_messages_lisp
+[ 41%] [34m[1mGenerating Python code from SRV beginner_tutorials/AddTwoInts[0m
+[ 41%] Built target beginner_tutorials_generate_messages_nodejs
+[ 44%] Built target beginner_tutorials_generate_messages_eus
+[ 51%] [34m[1mGenerating Python srv __init__.py for beginner_tutorials[0m
+[ 51%] [34m[1mGenerating Python msg __init__.py for beginner_tutorials[0m
+[ 51%] Built target beginner_tutorials_generate_messages_py
+[ 51%] Built target beginner_tutorials_generate_messages_cpp
+[35m[1mScanning dependencies of target publ[0m
+[ 58%] Built target square
+[ 58%] Built target beginner_tutorials_gencpp
+[ 65%] Built target unity
+[35m[1mScanning dependencies of target add_two_ints_server[0m
+[35m[1mScanning dependencies of target add_two_ints_client[0m
+[ 65%] Built target beginner_tutorials_generate_messages
+[ 72%] Built target output
+[ 79%] Built target produce
+[ 82%] [32mBuilding CXX object CMakeFiles/add_two_ints_server.dir/src/server.cpp.o[0m
+[ 86%] [32mBuilding CXX object CMakeFiles/add_two_ints_client.dir/src/client.cpp.o[0m
+[ 89%] [32mBuilding CXX object CMakeFiles/publ.dir/src/msgpub.cpp.o[0m
+[01m[K/home/saswat/catkin_ws/src/beginner_tutorials/src/msgpub.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/saswat/catkin_ws/src/beginner_tutorials/src/msgpub.cpp:25:5:[m[K [01;31m[Kerror: [m[K‘[01m[KPublisher[m[K’ was not declared in this scope
+ ros:[01;31m[KPublisher[m[K pub =nh.advertise<beginner_tutorials::CombinedInfo>("ContinousCombinedInfo",1000);
+     [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/saswat/catkin_ws/src/beginner_tutorials/src/msgpub.cpp:25:5:[m[K [01;36m[Knote: [m[Ksuggested alternative:
+In file included from [01m[K/opt/ros/melodic/include/ros/node_handle.h:32:0[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/saswat/catkin_ws/src/beginner_tutorials/src/msgpub.cpp:1[m[K:
+[01m[K/opt/ros/melodic/include/ros/publisher.h:47:21:[m[K [01;36m[Knote: [m[K  ‘[01m[Kros::Publisher[m[K’
+   class ROSCPP_DECL [01;36m[KPublisher[m[K
+                     [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/saswat/catkin_ws/src/beginner_tutorials/src/msgpub.cpp:28:2:[m[K [01;31m[Kerror: [m[K‘[01m[KInput[m[K’ was not declared in this scope
+  [01;31m[KInput[m[K(msg);
+  [01;31m[K^~~~~[m[K
+[01m[K/home/saswat/catkin_ws/src/beginner_tutorials/src/msgpub.cpp:28:2:[m[K [01;36m[Knote: [m[Ksuggested alternative:
+In file included from [01m[K/opt/ros/melodic/include/ros/publisher.h:34:0[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/node_handle.h:32[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/saswat/catkin_ws/src/beginner_tutorials/src/msgpub.cpp:1[m[K:
+[01m[K/opt/ros/melodic/include/ros/serialization.h:652:3:[m[K [01;36m[Knote: [m[K  ‘[01m[KInput[m[K’
+   [01;36m[KInput[m[K,
+   [01;36m[K^~~~~[m[K
+[01m[K/home/saswat/catkin_ws/src/beginner_tutorials/src/msgpub.cpp:29:2:[m[K [01;31m[Kerror: [m[K‘[01m[Kpub[m[K’ was not declared in this scope
+  [01;31m[Kpub[m[K.publish(msg);
+  [01;31m[K^~~[m[K
+CMakeFiles/publ.dir/build.make:62: recipe for target 'CMakeFiles/publ.dir/src/msgpub.cpp.o' failed
+make[2]: *** [CMakeFiles/publ.dir/src/msgpub.cpp.o] Error 1
+CMakeFiles/Makefile2:104: recipe for target 'CMakeFiles/publ.dir/all' failed
+make[1]: *** [CMakeFiles/publ.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+[ 93%] [32m[1mLinking CXX executable /home/saswat/catkin_ws/devel/.private/beginner_tutorials/lib/beginner_tutorials/add_two_ints_client[0m
+[ 96%] [32m[1mLinking CXX executable /home/saswat/catkin_ws/devel/.private/beginner_tutorials/lib/beginner_tutorials/add_two_ints_server[0m
+[ 96%] Built target add_two_ints_client
+[ 96%] Built target add_two_ints_server
+Makefile:140: recipe for target 'all' failed
+make: *** [all] Error 2

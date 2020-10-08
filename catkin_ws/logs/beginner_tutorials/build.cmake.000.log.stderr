@@ -1,0 +1,30 @@
+[31m[1mCMake Error[0m at /home/saswat/catkin_ws/src/beginner_tutorials/CMakeLists.txt:233 (add_dependencies):
+  The dependency target "beginner_tutorials_gencpp" of target
+  "add_two_ints_client" does not exist.
+
+
+[31m[1mCMake Error[0m at /home/saswat/catkin_ws/src/beginner_tutorials/CMakeLists.txt:229 (add_dependencies):
+  The dependency target "beginner_tutorials_gencpp" of target
+  "add_two_ints_server" does not exist.
+
+
+[31m[1mCMake Error[0m at /home/saswat/catkin_ws/src/beginner_tutorials/CMakeLists.txt:225 (add_dependencies):
+  The dependency target "beginner_tutorials_generate_messages_cpp" of target
+  "unity" does not exist.
+
+
+[31m[1mCMake Error[0m at /home/saswat/catkin_ws/src/beginner_tutorials/CMakeLists.txt:216 (add_dependencies):
+  The dependency target "beginner_tutorials_generate_messages_cpp" of target
+  "square" does not exist.
+
+
+[31m[1mCMake Error[0m at /home/saswat/catkin_ws/src/beginner_tutorials/CMakeLists.txt:220 (add_dependencies):
+  The dependency target "beginner_tutorials_generate_messages_cpp" of target
+  "output" does not exist.
+
+
+[31m[1mCMake Error[0m at /home/saswat/catkin_ws/src/beginner_tutorials/CMakeLists.txt:212 (add_dependencies):
+  The dependency target "beginner_tutorials_generate_messages_cpp" of target
+  "produce" does not exist.
+
+

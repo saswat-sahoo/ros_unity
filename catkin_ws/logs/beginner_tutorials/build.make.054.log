@@ -1,0 +1,25 @@
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_eus
+[  6%] Built target read_video_cpp
+[  6%] Built target std_msgs_generate_messages_lisp
+[  6%] Built target _beginner_tutorials_generate_messages_check_deps_AddTwoInts
+[  6%] Built target _beginner_tutorials_generate_messages_check_deps_CombinedInfo
+[ 13%] Built target beginner_tutorials_generate_messages_nodejs
+[ 20%] Built target beginner_tutorials_generate_messages_cpp
+[ 34%] Built target beginner_tutorials_generate_messages_py
+[ 44%] Built target beginner_tutorials_generate_messages_eus
+[ 51%] Built target beginner_tutorials_generate_messages_lisp
+[35m[1mScanning dependencies of target publ[0m
+[ 51%] Built target beginner_tutorials_gencpp
+[ 55%] Built target beginner_tutorials_generate_messages
+[ 58%] Built target unity
+[ 62%] [32mBuilding CXX object CMakeFiles/publ.dir/src/msgpub.cpp.o[0m
+[ 68%] Built target produce
+[ 75%] Built target square
+[ 82%] Built target output
+[ 89%] Built target add_two_ints_server
+[ 96%] Built target add_two_ints_client
+[100%] [32m[1mLinking CXX executable /home/saswat/catkin_ws/devel/.private/beginner_tutorials/lib/beginner_tutorials/publ[0m
+[100%] Built target publ

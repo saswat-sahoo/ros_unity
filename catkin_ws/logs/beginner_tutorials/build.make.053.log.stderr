@@ -1,0 +1,17 @@
+[01m[K/home/saswat/catkin_ws/src/beginner_tutorials/src/msgpub.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/saswat/catkin_ws/src/beginner_tutorials/src/msgpub.cpp:25:5:[m[K [01;31m[Kerror: [m[K‘[01m[KPublisher[m[K’ was not declared in this scope
+ ros:[01;31m[KPublisher[m[K pub =nh.advertise<beginner_tutorials::CombinedInfo>("ContinousCombinedInfo",1000);
+     [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/saswat/catkin_ws/src/beginner_tutorials/src/msgpub.cpp:25:5:[m[K [01;36m[Knote: [m[Ksuggested alternative:
+In file included from [01m[K/opt/ros/melodic/include/ros/node_handle.h:32:0[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/saswat/catkin_ws/src/beginner_tutorials/src/msgpub.cpp:1[m[K:
+[01m[K/opt/ros/melodic/include/ros/publisher.h:47:21:[m[K [01;36m[Knote: [m[K  ‘[01m[Kros::Publisher[m[K’
+   class ROSCPP_DECL [01;36m[KPublisher[m[K
+                     [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/saswat/catkin_ws/src/beginner_tutorials/src/msgpub.cpp:29:2:[m[K [01;31m[Kerror: [m[K‘[01m[Kpub[m[K’ was not declared in this scope
+  [01;31m[Kpub[m[K.publish(msg);
+  [01;31m[K^~~[m[K
+make[2]: *** [CMakeFiles/publ.dir/src/msgpub.cpp.o] Error 1
+make[1]: *** [CMakeFiles/publ.dir/all] Error 2
+make: *** [all] Error 2

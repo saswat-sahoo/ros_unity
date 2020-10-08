@@ -1,0 +1,43 @@
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_cpp
+[  3%] Built target std_msgs_generate_messages_nodejs
+[  6%] Built target read_video_cpp
+[  6%] Built target _beginner_tutorials_generate_messages_check_deps_CombinedInfo
+[  6%] Built target _beginner_tutorials_generate_messages_check_deps_AddTwoInts
+[ 20%] Built target beginner_tutorials_generate_messages_nodejs
+[ 20%] Built target beginner_tutorials_generate_messages_lisp
+[ 27%] Built target beginner_tutorials_generate_messages_cpp
+[ 41%] Built target beginner_tutorials_generate_messages_py
+[ 51%] Built target beginner_tutorials_generate_messages_eus
+[35m[1mScanning dependencies of target publ[0m
+[ 51%] Built target beginner_tutorials_gencpp
+[ 58%] Built target output
+[ 62%] [32mBuilding CXX object CMakeFiles/publ.dir/src/msgpub.cpp.o[0m
+[ 68%] Built target produce
+[ 75%] Built target unity
+[ 75%] Built target beginner_tutorials_generate_messages
+[ 82%] Built target square
+[ 89%] Built target add_two_ints_client
+[ 96%] Built target add_two_ints_server
+[01m[K/home/saswat/catkin_ws/src/beginner_tutorials/src/msgpub.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/saswat/catkin_ws/src/beginner_tutorials/src/msgpub.cpp:25:5:[m[K [01;31m[Kerror: [m[K‘[01m[KPublisher[m[K’ was not declared in this scope
+ ros:[01;31m[KPublisher[m[K pub =nh.advertise<beginner_tutorials::CombinedInfo>("ContinousCombinedInfo",1000);
+     [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/saswat/catkin_ws/src/beginner_tutorials/src/msgpub.cpp:25:5:[m[K [01;36m[Knote: [m[Ksuggested alternative:
+In file included from [01m[K/opt/ros/melodic/include/ros/node_handle.h:32:0[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/saswat/catkin_ws/src/beginner_tutorials/src/msgpub.cpp:1[m[K:
+[01m[K/opt/ros/melodic/include/ros/publisher.h:47:21:[m[K [01;36m[Knote: [m[K  ‘[01m[Kros::Publisher[m[K’
+   class ROSCPP_DECL [01;36m[KPublisher[m[K
+                     [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/saswat/catkin_ws/src/beginner_tutorials/src/msgpub.cpp:29:2:[m[K [01;31m[Kerror: [m[K‘[01m[Kpub[m[K’ was not declared in this scope
+  [01;31m[Kpub[m[K.publish(msg);
+  [01;31m[K^~~[m[K
+CMakeFiles/publ.dir/build.make:62: recipe for target 'CMakeFiles/publ.dir/src/msgpub.cpp.o' failed
+make[2]: *** [CMakeFiles/publ.dir/src/msgpub.cpp.o] Error 1
+CMakeFiles/Makefile2:104: recipe for target 'CMakeFiles/publ.dir/all' failed
+make[1]: *** [CMakeFiles/publ.dir/all] Error 2
+Makefile:140: recipe for target 'all' failed
+make: *** [all] Error 2

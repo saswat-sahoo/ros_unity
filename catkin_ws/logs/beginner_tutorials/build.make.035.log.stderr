@@ -1,0 +1,7 @@
+[01m[K/home/saswat/catkin_ws/src/beginner_tutorials/src/server.cpp:[m[K In function ‘[01m[Kbool add(beginner_tutorials::AddTwoInts::Request&, beginner_tutorials::AddTwoInts::Response&)[m[K’:
+[01m[K/home/saswat/catkin_ws/src/beginner_tutorials/src/server.cpp:15:21:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K)[m[K’ token
+        for( j=1;j<=i[01;31m[K)[m[K{
+                     [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/add_two_ints_server.dir/src/server.cpp.o] Error 1
+make[1]: *** [CMakeFiles/add_two_ints_server.dir/all] Error 2
+make: *** [all] Error 2

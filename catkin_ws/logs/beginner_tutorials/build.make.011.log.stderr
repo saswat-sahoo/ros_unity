@@ -1,0 +1,7 @@
+[01m[K/home/saswat/catkin_ws/src/beginner_tutorials/src/server.cpp:[m[K In function ‘[01m[Kbool add(beginner_tutorials::AddTwoInts::Request&, beginner_tutorials::AddTwoInts::Response&)[m[K’:
+[01m[K/home/saswat/catkin_ws/src/beginner_tutorials/src/server.cpp:17:51:[m[K [01;31m[Kerror: [m[Karray must be initialized with a brace-enclosed initializer
+          if (c==2){for (k=0;k<req.a;k++){int a[k]=[01;31m[Kj[m[K;}}}}
+                                                   [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/add_two_ints_server.dir/src/server.cpp.o] Error 1
+make[1]: *** [CMakeFiles/add_two_ints_server.dir/all] Error 2
+make: *** [all] Error 2

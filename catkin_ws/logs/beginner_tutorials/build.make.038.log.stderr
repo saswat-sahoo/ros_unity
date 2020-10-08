@@ -1,0 +1,13 @@
+[01m[K/home/saswat/catkin_ws/src/beginner_tutorials/src/client.cpp:24:6:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kelse[m[K’
+      [01;31m[Kelse[m[K
+      [01;31m[K^~~~[m[K
+[01m[K/home/saswat/catkin_ws/src/beginner_tutorials/src/client.cpp:30:6:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kreturn[m[K’
+      [01;31m[Kreturn[m[K 0;
+      [01;31m[K^~~~~~[m[K
+[01m[K/home/saswat/catkin_ws/src/beginner_tutorials/src/client.cpp:31:4:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+    [01;31m[K}[m[K
+    [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/add_two_ints_client.dir/src/client.cpp.o] Error 1
+make[1]: *** [CMakeFiles/add_two_ints_client.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make: *** [all] Error 2
