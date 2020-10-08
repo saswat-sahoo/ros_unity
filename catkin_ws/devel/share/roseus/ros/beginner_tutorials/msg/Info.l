@@ -1,0 +1,1 @@
+/home/saswat/catkin_ws/devel/.private/beginner_tutorials/share/roseus/ros/beginner_tutorials/msg/Info.l

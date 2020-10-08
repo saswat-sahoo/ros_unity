@@ -54,21 +54,36 @@ CMAKE_BINARY_DIR = /home/saswat/catkin_ws/build/beginner_tutorials
 include CMakeFiles/beginner_tutorials_generate_messages_nodejs.dir/progress.make
 
 CMakeFiles/beginner_tutorials_generate_messages_nodejs: /home/saswat/catkin_ws/devel/.private/beginner_tutorials/share/gennodejs/ros/beginner_tutorials/msg/CombinedInfo.js
+CMakeFiles/beginner_tutorials_generate_messages_nodejs: /home/saswat/catkin_ws/devel/.private/beginner_tutorials/share/gennodejs/ros/beginner_tutorials/msg/Info.js
+CMakeFiles/beginner_tutorials_generate_messages_nodejs: /home/saswat/catkin_ws/devel/.private/beginner_tutorials/share/gennodejs/ros/beginner_tutorials/msg/Vector3.js
 CMakeFiles/beginner_tutorials_generate_messages_nodejs: /home/saswat/catkin_ws/devel/.private/beginner_tutorials/share/gennodejs/ros/beginner_tutorials/srv/AddTwoInts.js
 
 
 /home/saswat/catkin_ws/devel/.private/beginner_tutorials/share/gennodejs/ros/beginner_tutorials/msg/CombinedInfo.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
 /home/saswat/catkin_ws/devel/.private/beginner_tutorials/share/gennodejs/ros/beginner_tutorials/msg/CombinedInfo.js: /home/saswat/catkin_ws/src/beginner_tutorials/msg/CombinedInfo.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/saswat/catkin_ws/build/beginner_tutorials/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Javascript code from beginner_tutorials/CombinedInfo.msg"
-	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/saswat/catkin_ws/src/beginner_tutorials/msg/CombinedInfo.msg -Ibeginner_tutorials:/home/saswat/catkin_ws/src/beginner_tutorials/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p beginner_tutorials -o /home/saswat/catkin_ws/devel/.private/beginner_tutorials/share/gennodejs/ros/beginner_tutorials/msg
+	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/saswat/catkin_ws/src/beginner_tutorials/msg/CombinedInfo.msg -Ibeginner_tutorials:/home/saswat/catkin_ws/src/beginner_tutorials/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p beginner_tutorials -o /home/saswat/catkin_ws/devel/.private/beginner_tutorials/share/gennodejs/ros/beginner_tutorials/msg
+
+/home/saswat/catkin_ws/devel/.private/beginner_tutorials/share/gennodejs/ros/beginner_tutorials/msg/Info.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
+/home/saswat/catkin_ws/devel/.private/beginner_tutorials/share/gennodejs/ros/beginner_tutorials/msg/Info.js: /home/saswat/catkin_ws/src/beginner_tutorials/msg/Info.msg
+/home/saswat/catkin_ws/devel/.private/beginner_tutorials/share/gennodejs/ros/beginner_tutorials/msg/Info.js: /home/saswat/catkin_ws/src/beginner_tutorials/msg/Vector3.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/saswat/catkin_ws/build/beginner_tutorials/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Javascript code from beginner_tutorials/Info.msg"
+	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/saswat/catkin_ws/src/beginner_tutorials/msg/Info.msg -Ibeginner_tutorials:/home/saswat/catkin_ws/src/beginner_tutorials/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p beginner_tutorials -o /home/saswat/catkin_ws/devel/.private/beginner_tutorials/share/gennodejs/ros/beginner_tutorials/msg
+
+/home/saswat/catkin_ws/devel/.private/beginner_tutorials/share/gennodejs/ros/beginner_tutorials/msg/Vector3.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
+/home/saswat/catkin_ws/devel/.private/beginner_tutorials/share/gennodejs/ros/beginner_tutorials/msg/Vector3.js: /home/saswat/catkin_ws/src/beginner_tutorials/msg/Vector3.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/saswat/catkin_ws/build/beginner_tutorials/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Javascript code from beginner_tutorials/Vector3.msg"
+	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/saswat/catkin_ws/src/beginner_tutorials/msg/Vector3.msg -Ibeginner_tutorials:/home/saswat/catkin_ws/src/beginner_tutorials/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p beginner_tutorials -o /home/saswat/catkin_ws/devel/.private/beginner_tutorials/share/gennodejs/ros/beginner_tutorials/msg
 
 /home/saswat/catkin_ws/devel/.private/beginner_tutorials/share/gennodejs/ros/beginner_tutorials/srv/AddTwoInts.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
 /home/saswat/catkin_ws/devel/.private/beginner_tutorials/share/gennodejs/ros/beginner_tutorials/srv/AddTwoInts.js: /home/saswat/catkin_ws/src/beginner_tutorials/srv/AddTwoInts.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/saswat/catkin_ws/build/beginner_tutorials/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Javascript code from beginner_tutorials/AddTwoInts.srv"
-	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/saswat/catkin_ws/src/beginner_tutorials/srv/AddTwoInts.srv -Ibeginner_tutorials:/home/saswat/catkin_ws/src/beginner_tutorials/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p beginner_tutorials -o /home/saswat/catkin_ws/devel/.private/beginner_tutorials/share/gennodejs/ros/beginner_tutorials/srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/saswat/catkin_ws/build/beginner_tutorials/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating Javascript code from beginner_tutorials/AddTwoInts.srv"
+	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/saswat/catkin_ws/src/beginner_tutorials/srv/AddTwoInts.srv -Ibeginner_tutorials:/home/saswat/catkin_ws/src/beginner_tutorials/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p beginner_tutorials -o /home/saswat/catkin_ws/devel/.private/beginner_tutorials/share/gennodejs/ros/beginner_tutorials/srv
 
 beginner_tutorials_generate_messages_nodejs: CMakeFiles/beginner_tutorials_generate_messages_nodejs
 beginner_tutorials_generate_messages_nodejs: /home/saswat/catkin_ws/devel/.private/beginner_tutorials/share/gennodejs/ros/beginner_tutorials/msg/CombinedInfo.js
+beginner_tutorials_generate_messages_nodejs: /home/saswat/catkin_ws/devel/.private/beginner_tutorials/share/gennodejs/ros/beginner_tutorials/msg/Info.js
+beginner_tutorials_generate_messages_nodejs: /home/saswat/catkin_ws/devel/.private/beginner_tutorials/share/gennodejs/ros/beginner_tutorials/msg/Vector3.js
 beginner_tutorials_generate_messages_nodejs: /home/saswat/catkin_ws/devel/.private/beginner_tutorials/share/gennodejs/ros/beginner_tutorials/srv/AddTwoInts.js
 beginner_tutorials_generate_messages_nodejs: CMakeFiles/beginner_tutorials_generate_messages_nodejs.dir/build.make
 

@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/beginner_tutorials_generate_messages_cpp"
   "/home/saswat/catkin_ws/devel/.private/beginner_tutorials/include/beginner_tutorials/CombinedInfo.h"
+  "/home/saswat/catkin_ws/devel/.private/beginner_tutorials/include/beginner_tutorials/Info.h"
+  "/home/saswat/catkin_ws/devel/.private/beginner_tutorials/include/beginner_tutorials/Vector3.h"
   "/home/saswat/catkin_ws/devel/.private/beginner_tutorials/include/beginner_tutorials/AddTwoInts.h"
 )
 

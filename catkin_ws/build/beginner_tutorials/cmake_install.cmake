@@ -129,7 +129,11 @@ file(INSTALL DESTINATION "/home/saswat/catkin_ws/install" TYPE FILE FILES "/home
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/beginner_tutorials/msg" TYPE FILE FILES "/home/saswat/catkin_ws/src/beginner_tutorials/msg/CombinedInfo.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/beginner_tutorials/msg" TYPE FILE FILES
+    "/home/saswat/catkin_ws/src/beginner_tutorials/msg/CombinedInfo.msg"
+    "/home/saswat/catkin_ws/src/beginner_tutorials/msg/Vector3.msg"
+    "/home/saswat/catkin_ws/src/beginner_tutorials/msg/Info.msg"
+    )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -181,6 +185,10 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/beginner_tutorials" TYPE FILE FILES "/home/saswat/catkin_ws/src/beginner_tutorials/package.xml")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/beginner_tutorials" TYPE PROGRAM FILES "/home/saswat/catkin_ws/build/beginner_tutorials/catkin_generated/installspace/infosub.py")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
